@@ -5,9 +5,9 @@ import '../styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VisitHome - Your Gateway to Home Solutions',
-  description: 'Discover innovative home solutions and services with VisitHome. We provide comprehensive home improvement, maintenance, and design services.',
-  keywords: 'home solutions, home improvement, home maintenance, home design, VisitHome',
+  title: 'VisitHome - The Future of Open House Events',
+  description: 'VisitHome is the ultimate app for real estate professionals to create, manage, and optimize Open House events. Streamline your workflow and maximize property showings.',
+  keywords: 'real estate, open house, property management, real estate app, property showings, real estate professionals, VisitHome',
   authors: [{ name: 'VisitHome Team' }],
   creator: 'VisitHome',
   publisher: 'VisitHome',
@@ -21,8 +21,8 @@ export const metadata: Metadata = {
     canonical: '/',
   },
   openGraph: {
-    title: 'VisitHome - Your Gateway to Home Solutions',
-    description: 'Discover innovative home solutions and services with VisitHome.',
+    title: 'VisitHome - The Future of Open House Events',
+    description: 'The ultimate app for real estate professionals to create, manage, and optimize Open House events.',
     url: 'https://visithome.com',
     siteName: 'VisitHome',
     images: [
@@ -38,8 +38,8 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VisitHome - Your Gateway to Home Solutions',
-    description: 'Discover innovative home solutions and services with VisitHome.',
+    title: 'VisitHome - The Future of Open House Events',
+    description: 'The ultimate app for real estate professionals to create, manage, and optimize Open House events.',
     images: ['/VisitHome__03_Badge_Gradient.png'],
   },
   robots: {

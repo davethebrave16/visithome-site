@@ -27,19 +27,19 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="#home" className="text-gray-700 hover:text-primary-600 transition-colors">
+            <Link href="#home" className="text-gray-700 hover:text-blue-600 transition-colors">
               Home
             </Link>
-            <Link href="#services" className="text-gray-700 hover:text-primary-600 transition-colors">
-              Services
+            <Link href="#features" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Features
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-primary-600 transition-colors">
+            <Link href="#product" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Product
+            </Link>
+            <Link href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">
               About
             </Link>
-            <Link href="#testimonials" className="text-gray-700 hover:text-primary-600 transition-colors">
-              Testimonials
-            </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-primary-600 transition-colors">
+            <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
               Contact
             </Link>
           </nav>
@@ -48,9 +48,9 @@ export default function Header() {
           <div className="hidden md:flex">
             <Link
               href="#contact"
-              className="bg-gradient-to-r from-primary-600 to-secondary-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300"
+              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Get Started
+              Join Waitlist
             </Link>
           </div>
 
@@ -77,35 +77,35 @@ export default function Header() {
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
               <Link
                 href="#home"
-                className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
-                href="#services"
-                className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors"
+                href="#features"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Services
+                Features
+              </Link>
+              <Link
+                href="#product"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                onClick={() => setIsMenuOpen(false)}
+              >
+                Product
               </Link>
               <Link
                 href="#about"
-                className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
-                href="#testimonials"
-                className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Testimonials
-              </Link>
-              <Link
                 href="#contact"
-                className="block px-3 py-2 text-gray-700 hover:text-primary-600 transition-colors"
+                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Contact
@@ -113,10 +113,10 @@ export default function Header() {
               <div className="pt-4">
                 <Link
                   href="#contact"
-                  className="block w-full text-center bg-gradient-to-r from-primary-600 to-secondary-600 text-white px-6 py-2 rounded-full hover:shadow-lg transition-all duration-300"
+                  className="block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Get Started
+                  Join Waitlist
                 </Link>
               </div>
             </div>
