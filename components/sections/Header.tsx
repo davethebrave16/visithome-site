@@ -27,30 +27,30 @@ export default function Header() {
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
-            <Link href="#home" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#home" className="text-gray-700 hover:text-blue-600 transition-colors">
               Home
             </Link>
-            <Link href="#features" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#features" className="text-gray-700 hover:text-blue-600 transition-colors">
               Features
             </Link>
-            <Link href="#product" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#product" className="text-gray-700 hover:text-blue-600 transition-colors">
               Product
             </Link>
-            <Link href="#about" className="text-gray-700 hover:text-blue-600 transition-colors">
+            <Link href="/#about" className="text-gray-700 hover:text-blue-600 transition-colors">
               About
             </Link>
-            <Link href="#contact" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Contact
+            <Link href="/#download" className="text-gray-700 hover:text-blue-600 transition-colors">
+              Download
             </Link>
           </nav>
 
           {/* CTA Button */}
           <div className="hidden md:flex">
             <Link
-              href="#contact"
+              href="/#download"
               className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
             >
-              Join Waitlist
+              Download App
             </Link>
           </div>
 
@@ -76,47 +76,47 @@ export default function Header() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
               <Link
-                href="#home"
+                href="/#home"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Home
               </Link>
               <Link
-                href="#features"
+                href="/#features"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Features
               </Link>
               <Link
-                href="#product"
+                href="/#product"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Product
               </Link>
               <Link
-                href="#about"
+                href="/#about"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 About
               </Link>
               <Link
-                href="#contact"
+                href="/#download"
                 className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Contact
+                Download
               </Link>
               <div className="pt-4">
                 <Link
-                  href="#contact"
+                  href="/#download"
                   className="block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Join Waitlist
+                  Download App
                 </Link>
               </div>
             </div>

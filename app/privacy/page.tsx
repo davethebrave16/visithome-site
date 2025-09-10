@@ -77,7 +77,7 @@ export default function Privacy() {
                 If you have any questions about this Privacy Policy, please contact us at:
               </p>
               <p className="text-gray-600">
-                Email: privacy@visithome.com<br />
+                Email: privacy@visithome.it<br />
                 Address: VisitHome Privacy Team, 123 Tech Street, City, State 12345
               </p>
             </section>

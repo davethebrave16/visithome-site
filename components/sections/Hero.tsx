@@ -62,10 +62,10 @@ export default function Hero() {
                 Explore Features
               </Link>
               <Link
-                href="#contact"
+                href="#download"
                 className="border-2 border-white text-white px-8 py-3 rounded-lg font-semibold hover:bg-white hover:text-blue-600 text-center"
               >
-                Get Early Access
+                Download App
               </Link>
             </div>
           </div>

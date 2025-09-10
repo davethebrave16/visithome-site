@@ -16,14 +16,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL('https://visithome.com'),
+  metadataBase: new URL('https://visithome.it'),
   alternates: {
     canonical: '/',
   },
   openGraph: {
     title: 'VisitHome - The Future of Open House Events',
     description: 'The ultimate app for real estate professionals to create, manage, and optimize Open House events.',
-    url: 'https://visithome.com',
+    url: 'https://visithome.it',
     siteName: 'VisitHome',
     images: [
       {
