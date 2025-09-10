@@ -26,30 +26,38 @@ export default function Hero() {
             
             {/* Subheading */}
             <p className="text-xl mb-8 leading-relaxed">
-              VisitHome is the ultimate app for real estate professionals to create, manage, 
-              and optimize Open House events. Streamline your workflow and maximize your 
-              property showings with our comprehensive platform.
+              VisitHome connects real estate professionals with potential buyers through our 
+              dual-platform system. Create and manage Open House events with our web app, 
+              while buyers discover and book appointments through our mobile app.
             </p>
             
-            {/* Key Benefits */}
-            <div className="space-y-3 mb-8">
-              <div className="flex items-center">
-                <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Create professional event listings with photos and details</span>
+            {/* Platform Benefits */}
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+              <div className="bg-white/10 rounded-lg p-4">
+                <h3 className="text-lg font-semibold mb-3 flex items-center">
+                  <svg className="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  For Real Estate Professionals
+                </h3>
+                <ul className="text-sm space-y-1">
+                  <li>• Create professional event listings</li>
+                  <li>• Manage appointments and leads</li>
+                  <li>• Get detailed analytics and insights</li>
+                </ul>
               </div>
-              <div className="flex items-center">
-                <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Manage single or group appointments seamlessly</span>
-              </div>
-              <div className="flex items-center">
-                <svg className="w-5 h-5 text-green-400 mr-3" fill="currentColor" viewBox="0 0 20 20">
-                  <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
-                </svg>
-                <span>Pre-qualify buyers with custom questionnaires</span>
+              <div className="bg-white/10 rounded-lg p-4">
+                <h3 className="text-lg font-semibold mb-3 flex items-center">
+                  <svg className="w-5 h-5 text-green-400 mr-2" fill="currentColor" viewBox="0 0 20 20">
+                    <path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd" />
+                  </svg>
+                  For Potential Buyers
+                </h3>
+                <ul className="text-sm space-y-1">
+                  <li>• Discover nearby Open House events</li>
+                  <li>• Book appointments easily</li>
+                  <li>• Complete pre-qualification forms</li>
+                </ul>
               </div>
             </div>
             
