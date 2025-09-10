@@ -25,6 +25,12 @@ export async function GET() {
         <changefreq>monthly</changefreq>
         <priority>0.9</priority>
       </url>
+      <url>
+        <loc>https://visithome.it/privacy</loc>
+        <lastmod>${new Date().toISOString()}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.5</priority>
+      </url>
     </urlset>`;
   
   return new Response(sitemap, {
