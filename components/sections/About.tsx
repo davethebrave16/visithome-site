@@ -76,7 +76,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="relative">
+          <div className="relative hidden lg:block">
             <Image
               src="/VisitHome__03_Badge_Gradient.png"
               alt="VisitHome App"
