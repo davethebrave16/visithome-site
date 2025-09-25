@@ -82,7 +82,7 @@ export default function Privacy() {
               </p>
               <div className="text-slate-200 space-y-2">
                 <p>Email: privacy@visithome.it</p>
-                <p>Indirizzo: visithome Privacy Team, Italia</p>
+                <p>Indirizzo: VisitHome Privacy Team, Italia</p>
               </div>
             </section>
           </div>

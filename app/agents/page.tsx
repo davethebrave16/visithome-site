@@ -13,7 +13,7 @@ export default function AgentsPage() {
             Per <span className="text-transparent bg-clip-text hero-gradient-text">Agenzie Immobiliari</span>
           </h1>
           <p className="text-slate-200 text-lg max-w-3xl mx-auto">
-            Trasforma i tuoi Open House in esperienze digitali coinvolgenti. Gestisci eventi, raccogli lead qualificati e aumenta le tue vendite con visithome.
+            Trasforma i tuoi Open House in esperienze digitali coinvolgenti. Gestisci eventi, raccogli lead qualificati e aumenta le tue vendite con VisitHome.
           </p>
           <div className="pt-4">
             <a 

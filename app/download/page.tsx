@@ -57,7 +57,7 @@ export default function DownloadPage() {
             {/* Phone mockup */}
             <div className="relative mx-auto h-96 w-52 rounded-[2.2rem] border border-white/20 bg-gradient-to-b from-[#1f2a2e] to-[#0b1113] p-3 shadow-2xl">
               <div className="h-full w-full rounded-[1.8rem] bg-[#0b1113] p-3 flex flex-col gap-2">
-                <div className="rounded-xl bg-white/10 h-8 flex items-center px-3 text-xs text-slate-200">visithome · Eventi vicini a te</div>
+                <div className="rounded-xl bg-white/10 h-8 flex items-center px-3 text-xs text-slate-200">VisitHome · Eventi vicini a te</div>
                 <div className="flex-1 space-y-2 overflow-hidden">
                   {[
                     { title: "Villa Moderna", location: "Milano Centro", time: "Oggi 15:00", spots: "2 posti liberi" },
@@ -91,7 +91,7 @@ export default function DownloadPage() {
       {/* Features Section */}
       <section className="w-full mx-auto max-w-7xl px-6 md:px-10 py-16">
         <div className="text-center mb-12">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché scegliere visithome?</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4">Perché scegliere VisitHome?</h2>
           <p className="text-slate-200 text-lg max-w-2xl mx-auto">
             L'app che rivoluziona la ricerca casa, rendendo gli Open House più semplici e accessibili
           </p>

@@ -3,8 +3,8 @@ export default function About() {
     <section id="about" className="w-full mx-auto max-w-7xl px-6 md:px-10 py-16">
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-4">
-          <h4 className="text-2xl md:text-3xl font-bold">Perché è nata visithome</h4>
-          <p className="text-slate-200">Gli Open House hanno un potenziale enorme, ma venivano gestiti con strumenti vecchi. visithome nasce per digitalizzare l'esperienza, creando un ponte diretto tra chi cerca e chi offre casa.</p>
+          <h4 className="text-2xl md:text-3xl font-bold">Perché è nata VisitHome</h4>
+              <p className="text-slate-200">Gli Open House hanno un potenziale enorme, ma venivano gestiti con strumenti vecchi. VisitHome nasce per digitalizzare l'esperienza, creando un ponte diretto tra chi cerca e chi offre casa.</p>
           <p className="text-slate-200">Un nuovo modo di vivere l'immobiliare: più umano, più smart.</p>
         </div>
         <div className="rounded-2xl p-6 ring-1 ring-white/10 about-gradient-bg">

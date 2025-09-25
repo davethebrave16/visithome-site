@@ -4,7 +4,7 @@ export default function Features() {
       <div className="grid md:grid-cols-2 gap-10 items-center">
         <div className="space-y-4">
           <h2 className="text-3xl md:text-4xl font-bold">Dimentica burocrazia e caos di agenda</h2>
-          <p className="text-slate-200">Organizzare un Open House richiede tempo, chiamate infinite e mille fogli. Con visithome basta un click: calendario smart, check-in digitali, contatti già pronti nel tuo CRM.</p>
+              <p className="text-slate-200">Organizzare un Open House richiede tempo, chiamate infinite e mille fogli. Con VisitHome basta un click: calendario smart, check-in digitali, contatti già pronti nel tuo CRM.</p>
           <div className="grid sm:grid-cols-3 gap-3 pt-2">
             {[
               "Agenda automatizzata",

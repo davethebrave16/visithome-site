@@ -5,12 +5,12 @@ import '../styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'visithome - L\'Open House Experience 3.0 | App Immobiliare',
-  description: 'visithome digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati nel CRM.',
-  keywords: 'visithome, open house, immobiliare, agenzie immobiliari, cercare casa, prenotazioni immobiliari, app immobiliare, check-in digitale, lead qualificati, CRM immobiliare, eventi immobiliari, visite casa, app casa, ricerca immobiliare',
-  authors: [{ name: 'visithome Team' }],
-  creator: 'visithome',
-  publisher: 'visithome',
+  title: 'VisitHome - L\'Open House Experience 3.0 | App Immobiliare',
+  description: 'VisitHome digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati nel CRM.',
+  keywords: 'VisitHome, open house, immobiliare, agenzie immobiliari, cercare casa, prenotazioni immobiliari, app immobiliare, check-in digitale, lead qualificati, CRM immobiliare, eventi immobiliari, visite casa, app casa, ricerca immobiliare',
+  authors: [{ name: 'VisitHome Team' }],
+  creator: 'VisitHome',
+  publisher: 'VisitHome',
   formatDetection: {
     email: false,
     address: false,
@@ -20,17 +20,17 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  openGraph: {
-    title: 'visithome - L\'Open House Experience 3.0',
-    description: 'L\'app che digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati.',
-    url: 'https://visithome.it',
-    siteName: 'visithome',
+    openGraph: {
+      title: 'VisitHome - L\'Open House Experience 3.0',
+      description: 'L\'app che digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati.',
+      url: 'https://visithome.it',
+      siteName: 'VisitHome',
     images: [
       {
         url: '/VisitHome__03_Badge_Gradient.png',
         width: 1200,
         height: 630,
-        alt: 'visithome - L\'Open House Experience digitale',
+        alt: 'VisitHome - L\'Open House Experience digitale',
       },
     ],
     locale: 'it_IT',
@@ -38,7 +38,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'visithome - L\'Open House Experience 3.0',
+    title: 'VisitHome - L\'Open House Experience 3.0',
     description: 'L\'app che digitalizza e semplifica ogni Open House. Prenotazioni smart, check-in digitale, lead qualificati.',
     images: ['/VisitHome__03_Badge_Gradient.png'],
   },

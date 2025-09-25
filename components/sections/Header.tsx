@@ -6,9 +6,9 @@ import Link from 'next/link'
 // Logo component with gradient background
 function Logo({ className = "h-8" }) {
   return (
-    <div className={`${className} w-48 logo-gradient rounded-lg flex items-center justify-center`}>
-      <span className="text-white text-lg font-semibold visithome-font">visithome</span>
-    </div>
+        <div className={`${className} w-48 logo-gradient rounded-lg flex items-center justify-center`}>
+          <span className="text-white text-lg font-semibold visithome-font">VisitHome</span>
+        </div>
   )
 }
 
