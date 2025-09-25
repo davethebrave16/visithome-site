@@ -92,6 +92,12 @@ a {
   filter: blur(12px);
 }
 
+/* Dashboard glow effect */
+.dashboard-glow {
+  background: linear-gradient(135deg, #7DCED71a, #007EA71a);
+  filter: blur(12px);
+}
+
 /* Custom gradient text based on VisitHome logo */
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
