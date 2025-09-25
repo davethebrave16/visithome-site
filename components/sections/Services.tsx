@@ -13,7 +13,7 @@ export default function ProductFeatures() {
               <li>✓ Check-in digitale e niente code</li>
             </ul>
             <div className="pt-2">
-              <a href="#download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</a>
+              <a href="/download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</a>
             </div>
           </div>
           <div className="order-1 md:order-2 grid place-items-center">

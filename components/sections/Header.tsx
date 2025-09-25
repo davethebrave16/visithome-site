@@ -32,7 +32,7 @@ export default function Header() {
           </div>
           <div className="flex items-center gap-3">
             <Link href="/agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Per le Agenzie</Link>
-            <Link href="#download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
+            <Link href="/download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
           </div>
           
           {/* Mobile menu button */}
@@ -93,7 +93,7 @@ export default function Header() {
                   Per le Agenzie
                 </Link>
                 <Link
-                  href="#download"
+                  href="/download"
                   className="block w-full text-center bg-[#007EA7] hover:bg-[#003249] text-white px-6 py-3 rounded-2xl font-semibold shadow-lg transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >

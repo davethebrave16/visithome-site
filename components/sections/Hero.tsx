@@ -13,7 +13,7 @@ export default function Hero() {
             visithome è l'app che digitalizza e semplifica ogni Open House: più tempo per i clienti, meno caos da gestire.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
-            <Link href="#download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
+            <Link href="/download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
             <Link href="#features" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Scopri come funziona</Link>
           </div>
           <div className="flex flex-wrap items-center gap-4 pt-4 text-xs text-slate-300">
