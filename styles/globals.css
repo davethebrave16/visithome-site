@@ -73,6 +73,25 @@ a {
   background: linear-gradient(90deg, #7DCED7 0%, #007EA7 60%, #003249 100%);
 }
 
+/* Hero gradient text */
+.hero-gradient-text {
+  background: linear-gradient(90deg, #7DCED7, #007EA7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Phone mockup gradient */
+.phone-mockup-gradient {
+  background: linear-gradient(135deg, #7DCED7aa, #007EA7aa);
+}
+
+/* Phone mockup glow effect */
+.phone-mockup-glow {
+  background: linear-gradient(135deg, #7DCED71a, #007EA71a);
+  filter: blur(12px);
+}
+
 /* Custom gradient text based on VisitHome logo */
 .gradient-text {
   background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
