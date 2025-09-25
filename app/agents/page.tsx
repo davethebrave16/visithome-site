@@ -7,7 +7,7 @@ export default function AgentsPage() {
       <Header />
       
       {/* Hero Section */}
-      <section className="w-full mx-auto max-w-7xl px-6 md:px-10 pt-16 pb-20">
+      <section className="w-full mx-auto max-w-7xl px-6 md:px-10 pt-20 md:pt-16 pb-20">
         <div className="text-center space-y-6">
           <h1 className="text-4xl md:text-6xl font-black leading-tight">
             Per <span className="text-transparent bg-clip-text hero-gradient-text">Agenzie Immobiliari</span>

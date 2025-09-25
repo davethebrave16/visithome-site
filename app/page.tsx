@@ -10,12 +10,14 @@ export default function Home() {
   return (
     <div className="min-h-screen w-full text-slate-100 visithome-bg visithome-font">
       <Header />
-      <Hero />
-      <Features />
-      <ProductFeatures />
-      <About />
-      <Contact />
-      <Footer />
+      <div className="pt-16 md:pt-0">
+        <Hero />
+        <Features />
+        <ProductFeatures />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
     </div>
   )
 }

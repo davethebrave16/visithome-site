@@ -7,7 +7,7 @@ export default function DownloadPage() {
       <Header />
       
       {/* Hero Section */}
-      <section className="w-full mx-auto max-w-7xl px-6 md:px-10 pt-16 pb-20">
+      <section className="w-full mx-auto max-w-7xl px-6 md:px-10 pt-20 md:pt-16 pb-20">
         <div className="grid md:grid-cols-2 gap-10 items-center">
           <div className="space-y-6">
             <h1 className="text-4xl md:text-6xl font-black leading-tight">
