@@ -31,7 +31,7 @@ export default function Header() {
             <Link href="#about" className="hover:text-white transition-colors">Vision</Link>
           </div>
           <div className="flex items-center gap-3">
-            <Link href="#agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Per le Agenzie</Link>
+            <Link href="/agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Per le Agenzie</Link>
             <Link href="#download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
           </div>
           
@@ -71,7 +71,7 @@ export default function Header() {
                 Per chi cerca
               </Link>
               <Link
-                href="#agents"
+                href="/agents"
                 className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
@@ -86,7 +86,7 @@ export default function Header() {
               </Link>
               <div className="pt-4 space-y-2">
                 <Link
-                  href="#agents"
+                  href="/agents"
                   className="block w-full text-center bg-white/90 hover:bg-white text-[#003249] px-6 py-3 rounded-2xl font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >

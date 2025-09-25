@@ -35,7 +35,7 @@ export default function ProductFeatures() {
               <li>✓ Report eventi e performance</li>
             </ul>
             <div className="pt-2">
-              <a href="#features" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Scopri come funziona</a>
+              <a href="/agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Scopri come funziona</a>
             </div>
           </div>
         </div>
