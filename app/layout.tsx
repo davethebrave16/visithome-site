@@ -5,9 +5,9 @@ import '../styles/globals.css'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
-  title: 'VisitHome - The Future of Open House Events',
-  description: 'VisitHome is the ultimate app for real estate professionals to create, manage, and optimize Open House events. Streamline your workflow and maximize property showings.',
-  keywords: 'real estate, open house, property management, real estate app, property showings, real estate professionals, VisitHome',
+  title: 'VisitHome - L\'Open House Experience 3.0 | App Immobiliare',
+  description: 'VisitHome digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati nel CRM.',
+  keywords: 'VisitHome, open house, immobiliare, agenzie immobiliari, cercare casa, prenotazioni immobiliari, app immobiliare, check-in digitale, lead qualificati, CRM immobiliare, eventi immobiliari, visite casa, app casa, ricerca immobiliare',
   authors: [{ name: 'VisitHome Team' }],
   creator: 'VisitHome',
   publisher: 'VisitHome',
@@ -20,26 +20,26 @@ export const metadata: Metadata = {
   alternates: {
     canonical: '/',
   },
-  openGraph: {
-    title: 'VisitHome - The Future of Open House Events',
-    description: 'The ultimate app for real estate professionals to create, manage, and optimize Open House events.',
-    url: 'https://visithome.it',
-    siteName: 'VisitHome',
+    openGraph: {
+      title: 'VisitHome - L\'Open House Experience 3.0',
+      description: 'L\'app che digitalizza e semplifica ogni Open House. Per agenzie immobiliari e chi cerca casa. Prenotazioni smart, check-in digitale, lead qualificati.',
+      url: 'https://visithome.it',
+      siteName: 'VisitHome',
     images: [
       {
         url: '/VisitHome__03_Badge_Gradient.png',
         width: 1200,
         height: 630,
-        alt: 'VisitHome Logo',
+        alt: 'VisitHome - L\'Open House Experience digitale',
       },
     ],
-    locale: 'en_US',
+    locale: 'it_IT',
     type: 'website',
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'VisitHome - The Future of Open House Events',
-    description: 'The ultimate app for real estate professionals to create, manage, and optimize Open House events.',
+    title: 'VisitHome - L\'Open House Experience 3.0',
+    description: 'L\'app che digitalizza e semplifica ogni Open House. Prenotazioni smart, check-in digitale, lead qualificati.',
     images: ['/VisitHome__03_Badge_Gradient.png'],
   },
   robots: {
@@ -53,6 +53,10 @@ export const metadata: Metadata = {
       'max-snippet': -1,
     },
   },
+  verification: {
+    google: 'your-google-verification-code',
+  },
+  category: 'technology',
 }
 
 export default function RootLayout({
@@ -61,7 +65,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="it">
       <head>
         <link rel="icon" href="/favicon.ico" />
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />

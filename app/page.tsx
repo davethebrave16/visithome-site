@@ -8,14 +8,16 @@ import Header from '@/components/sections/Header'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen w-full text-slate-100 visithome-bg visithome-font">
       <Header />
-      <Hero />
-      <Features />
-      <ProductFeatures />
-      <About />
-      <Contact />
-      <Footer />
-    </main>
+      <div className="pt-16 md:pt-0">
+        <Hero />
+        <Features />
+        <ProductFeatures />
+        <About />
+        <Contact />
+        <Footer />
+      </div>
+    </div>
   )
 }

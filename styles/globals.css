@@ -8,6 +8,12 @@
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
+  
+  /* VisitHome brand colors */
+  --brand-primary: #003249;
+  --brand-secondary: #007EA7;
+  --brand-accent: #7DCED7;
+  --brand-dark: #181A1A;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,6 +57,50 @@ a {
   html {
     color-scheme: dark;
   }
+}
+
+/* VisitHome specific styles */
+.visithome-bg {
+  background: linear-gradient(180deg, #003249 0%, #181A1A 40%, #003249 100%);
+}
+
+.visithome-font {
+  font-family: "TT Commons Pro", Inter, system-ui, -apple-system, Segoe UI, Roboto, sans-serif;
+}
+
+/* Logo gradient */
+.logo-gradient {
+  background: linear-gradient(90deg, #7DCED7 0%, #007EA7 60%, #003249 100%);
+}
+
+/* Hero gradient text */
+.hero-gradient-text {
+  background: linear-gradient(90deg, #7DCED7, #007EA7);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+/* Phone mockup gradient */
+.phone-mockup-gradient {
+  background: linear-gradient(135deg, #7DCED7aa, #007EA7aa);
+}
+
+/* Phone mockup glow effect */
+.phone-mockup-glow {
+  background: linear-gradient(135deg, #7DCED71a, #007EA71a);
+  filter: blur(12px);
+}
+
+/* Dashboard glow effect */
+.dashboard-glow {
+  background: linear-gradient(135deg, #7DCED71a, #007EA71a);
+  filter: blur(12px);
+}
+
+/* About section gradient background */
+.about-gradient-bg {
+  background: linear-gradient(135deg, #7DCED71a, #007EA71a);
 }
 
 /* Custom gradient text based on VisitHome logo */
