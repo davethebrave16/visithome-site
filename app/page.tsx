@@ -8,7 +8,7 @@ import Header from '@/components/sections/Header'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen w-full text-slate-100 visithome-bg visithome-font">
       <Header />
       <Hero />
       <Features />
@@ -16,6 +16,6 @@ export default function Home() {
       <About />
       <Contact />
       <Footer />
-    </main>
+    </div>
   )
 }

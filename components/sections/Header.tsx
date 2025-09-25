@@ -1,64 +1,45 @@
 'use client'
 
 import { useState } from 'react'
-import Image from 'next/image'
 import Link from 'next/link'
+
+// Logo component with gradient background
+function Logo({ className = "h-8" }) {
+  return (
+    <div className={`${className} w-48 logo-gradient rounded-lg flex items-center justify-center`}>
+      <span className="text-white text-lg font-semibold visithome-font">visithome</span>
+    </div>
+  )
+}
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
   return (
-    <header className="bg-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="flex justify-between items-center py-4">
-          {/* Logo */}
-          <div className="flex items-center">
-            <Link href="/" className="flex items-center space-x-2">
-              <Image
-                src="/VisitHome__03_Badge_Gradient.png"
-                alt="VisitHome Logo"
-                width={40}
-                height={40}
-                className="w-10 h-10"
-              />
-              <span className="text-2xl font-bold gradient-text">VisitHome</span>
+    <nav className="sticky top-0 z-50 backdrop-blur bg-[#003249]/70 border-b border-white/10">
+      <div className="w-full mx-auto max-w-7xl px-6 md:px-10">
+        <div className="flex items-center justify-between py-3">
+          <div className="flex items-center gap-3">
+            <Link href="/">
+              <Logo className="h-8"/>
             </Link>
           </div>
-
-          {/* Desktop Navigation */}
-          <nav className="hidden md:flex space-x-8">
-            <Link href="/#home" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Home
-            </Link>
-            <Link href="/#features" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Features
-            </Link>
-            <Link href="/#product" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Product
-            </Link>
-            <Link href="/#about" className="text-gray-700 hover:text-blue-600 transition-colors">
-              About
-            </Link>
-            <Link href="/#download" className="text-gray-700 hover:text-blue-600 transition-colors">
-              Download
-            </Link>
-          </nav>
-
-          {/* CTA Button */}
-          <div className="hidden md:flex">
-            <Link
-              href="/#download"
-              className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
-            >
-              Download App
-            </Link>
+          <div className="hidden md:flex items-center gap-6 text-sm text-slate-200">
+            <Link href="#features" className="hover:text-white transition-colors">Funzioni</Link>
+            <Link href="#buyers" className="hover:text-white transition-colors">Per chi cerca</Link>
+            <Link href="#agents" className="hover:text-white transition-colors">Per agenzie</Link>
+            <Link href="#about" className="hover:text-white transition-colors">Vision</Link>
           </div>
-
+          <div className="flex items-center gap-3">
+            <Link href="#agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Per le Agenzie</Link>
+            <Link href="#download" className="inline-flex items-center gap-2 rounded-2xl bg-[#007EA7] hover:bg-[#003249] text-white px-5 py-3 text-sm font-semibold shadow-lg transition-colors">Scarica l'app</Link>
+          </div>
+          
           {/* Mobile menu button */}
           <div className="md:hidden">
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
-              className="text-gray-700 hover:text-primary-600 focus:outline-none"
+              className="text-slate-200 hover:text-white focus:outline-none"
             >
               <svg className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 {isMenuOpen ? (
@@ -74,55 +55,55 @@ export default function Header() {
         {/* Mobile Navigation */}
         {isMenuOpen && (
           <div className="md:hidden">
-            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white border-t">
+            <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#003249]/90 border-t border-white/10">
               <Link
-                href="/#home"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                href="#features"
+                className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Home
+                Funzioni
               </Link>
               <Link
-                href="/#features"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                href="#buyers"
+                className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Features
+                Per chi cerca
               </Link>
               <Link
-                href="/#product"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                href="#agents"
+                className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                Product
+                Per agenzie
               </Link>
               <Link
-                href="/#about"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
+                href="#about"
+                className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
-                About
+                Vision
               </Link>
-              <Link
-                href="/#download"
-                className="block px-3 py-2 text-gray-700 hover:text-blue-600 transition-colors"
-                onClick={() => setIsMenuOpen(false)}
-              >
-                Download
-              </Link>
-              <div className="pt-4">
+              <div className="pt-4 space-y-2">
                 <Link
-                  href="/#download"
-                  className="block w-full text-center bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                  href="#agents"
+                  className="block w-full text-center bg-white/90 hover:bg-white text-[#003249] px-6 py-3 rounded-2xl font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Download App
+                  Per le Agenzie
+                </Link>
+                <Link
+                  href="#download"
+                  className="block w-full text-center bg-[#007EA7] hover:bg-[#003249] text-white px-6 py-3 rounded-2xl font-semibold shadow-lg transition-colors"
+                  onClick={() => setIsMenuOpen(false)}
+                >
+                  Scarica l'app
                 </Link>
               </div>
             </div>
           </div>
         )}
       </div>
-    </header>
+    </nav>
   )
 }
