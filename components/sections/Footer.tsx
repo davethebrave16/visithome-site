@@ -20,10 +20,10 @@ export default function Footer() {
           <span>© {currentYear} visithome – L'Open House Experience digitale</span>
         </div>
         <div className="flex items-center gap-6">
-          <Link href="#features" className="hover:text-white transition-colors">Funzioni</Link>
-          <Link href="#buyers" className="hover:text-white transition-colors">Per chi cerca</Link>
-          <Link href="#agents" className="hover:text-white transition-colors">Per agenzie</Link>
-          <Link href="#about" className="hover:text-white transition-colors">Vision</Link>
+          <Link href="/#features" className="hover:text-white transition-colors">Funzioni</Link>
+          <Link href="/#buyers" className="hover:text-white transition-colors">Per chi cerca</Link>
+          <Link href="/#agents" className="hover:text-white transition-colors">Per agenzie</Link>
+          <Link href="/#about" className="hover:text-white transition-colors">Vision</Link>
         </div>
       </div>
     </footer>

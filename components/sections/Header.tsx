@@ -25,10 +25,10 @@ export default function Header() {
             </Link>
           </div>
           <div className="hidden md:flex items-center gap-6 text-sm text-slate-200">
-            <Link href="#features" className="hover:text-white transition-colors">Funzioni</Link>
-            <Link href="#buyers" className="hover:text-white transition-colors">Per chi cerca</Link>
-            <Link href="#agents" className="hover:text-white transition-colors">Per agenzie</Link>
-            <Link href="#about" className="hover:text-white transition-colors">Vision</Link>
+            <Link href="/#features" className="hover:text-white transition-colors">Funzioni</Link>
+            <Link href="/#buyers" className="hover:text-white transition-colors">Per chi cerca</Link>
+            <Link href="/#agents" className="hover:text-white transition-colors">Per agenzie</Link>
+            <Link href="/#about" className="hover:text-white transition-colors">Vision</Link>
           </div>
           <div className="flex items-center gap-3">
             <Link href="/agents" className="inline-flex items-center gap-2 rounded-2xl bg-white/90 hover:bg-white text-[#003249] px-5 py-3 text-sm font-semibold ring-1 ring-[#007EA7]/20 shadow-sm transition-colors">Per le Agenzie</Link>
@@ -57,28 +57,28 @@ export default function Header() {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-[#003249]/90 border-t border-white/10">
               <Link
-                href="#features"
+                href="/#features"
                 className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Funzioni
               </Link>
               <Link
-                href="#buyers"
+                href="/#buyers"
                 className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Per chi cerca
               </Link>
               <Link
-                href="/agents"
+                href="/#agents"
                 className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
                 Per agenzie
               </Link>
               <Link
-                href="#about"
+                href="/#about"
                 className="block px-3 py-2 text-slate-200 hover:text-white transition-colors"
                 onClick={() => setIsMenuOpen(false)}
               >
