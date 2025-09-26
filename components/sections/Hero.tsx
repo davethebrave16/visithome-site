@@ -23,25 +23,28 @@ export default function Hero() {
           </div>
         </div>
         <div className="grid place-items-center">
-          {/* Phone mockup */}
-          <div className="relative mx-auto h-96 w-52 rounded-[2.2rem] border border-white/20 bg-gradient-to-b from-[#1f2a2e] to-[#0b1113] p-3 shadow-2xl">
-            <div className="h-full w-full rounded-[1.8rem] bg-[#0b1113] p-3 flex flex-col gap-2">
-                  <div className="rounded-xl bg-white/10 h-8 flex items-center px-3 text-xs text-slate-200">VisitHome · Eventi vicini a te</div>
+          {/* Enhanced Phone mockup */}
+          <div className="relative mx-auto h-96 w-52 rounded-[2.2rem] border border-white/20 bg-gradient-to-b from-[#003249] to-[#181A1A] p-3 shadow-2xl">
+            <div className="h-full w-full rounded-[1.8rem] bg-[#181A1A] p-3 flex flex-col gap-2">
+              <div className="rounded-xl bg-[#003249]/80 h-8 flex items-center px-3 text-xs text-white">VisitHome · Eventi vicini a te</div>
               <div className="flex-1 space-y-2 overflow-hidden">
                 {[1,2,3,4].map(i => (
-                  <div key={i} className="rounded-xl bg-white/10 p-3 flex gap-3 hover:bg-white/15 transition">
-                    <div className="h-14 w-16 rounded-lg phone-mockup-gradient" />
+                  <div key={i} className="rounded-xl bg-[#003249]/60 p-3 flex gap-3 hover:bg-[#003249]/80 transition">
+                    <div className="h-14 w-16 rounded-lg bg-gradient-to-tr from-[#7DCED7]/40 to-[#007EA7]/40" />
                     <div className="flex-1">
                       <div className="h-3 w-28 rounded bg-white/20 mb-2" />
-                      <div className="flex items-center gap-2 text-[10px] text-slate-300">Oggi · 17:30 · posti liberi: 4</div>
+                      <div className="flex items-center gap-2 text-[10px] text-white/80">
+                        <span>Oggi · 17:30</span>
+                        <span className="ml-2">posti liberi: 4</span>
+                      </div>
                     </div>
-                    <button className="text-[10px] px-2 py-1 rounded-md bg-[#007EA7] text-white hover:bg-[#003249]">Prenota</button>
+                    <button className="text-[10px] px-2 py-1 rounded-md bg-[#007EA7]/80 text-white hover:bg-[#007EA7]">Prenota</button>
                   </div>
                 ))}
               </div>
-              <div className="h-8 rounded-xl bg-white/10 flex items-center justify-center text-xs text-slate-300">Tab · Cerca · Profilo</div>
+              <div className="h-8 rounded-xl bg-[#003249]/80 flex items-center justify-center text-xs text-white/70">Tab · Cerca · Profilo</div>
             </div>
-            <div className="absolute -left-3 -right-3 -top-3 -bottom-3 rounded-[2.6rem] phone-mockup-glow"/>
+            <div className="absolute -left-3 -right-3 -top-3 -bottom-3 rounded-[2.6rem] bg-gradient-to-tr from-[#7DCED7]/10 to-[#007EA7]/10 -z-10 blur-xl"/>
           </div>
         </div>
       </div>
