@@ -68,6 +68,13 @@ export async function GET() {
         <priority>0.3</priority>
       </url>
       
+      <url>
+        <loc>${baseUrl}/terms</loc>
+        <lastmod>${currentDate}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.3</priority>
+      </url>
+      
       <!-- External app links -->
       <url>
         <loc>https://app.visithome.it</loc>
