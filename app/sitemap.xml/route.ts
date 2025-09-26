@@ -60,6 +60,14 @@ export async function GET() {
         <priority>0.9</priority>
       </url>
       
+      <!-- Support page -->
+      <url>
+        <loc>${baseUrl}/support</loc>
+        <lastmod>${currentDate}</lastmod>
+        <changefreq>weekly</changefreq>
+        <priority>0.7</priority>
+      </url>
+      
       <!-- Legal pages -->
       <url>
         <loc>${baseUrl}/privacy</loc>
