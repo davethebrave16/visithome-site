@@ -1,11 +1,13 @@
 import Link from 'next/link'
 
-// Logo component with gradient background
+// Logo component with VisitHome logo
 function Logo({ className = "h-7" }) {
   return (
-        <div className={`${className} w-32 logo-gradient rounded-lg flex items-center justify-center`}>
-          <span className="text-white text-sm font-semibold visithome-font">VisitHome</span>
-        </div>
+    <img 
+      src="/VisitHome__03_Badge_Gradient.png" 
+      alt="VisitHome" 
+      className={`${className} w-auto`}
+    />
   )
 }
 

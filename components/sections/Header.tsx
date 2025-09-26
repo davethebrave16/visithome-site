@@ -3,12 +3,15 @@
 import { useState, useEffect, useRef } from 'react'
 import Link from 'next/link'
 
-// Logo component with gradient background
-function Logo({ className = "h-8" }) {
+// Logo component with VisitHome logo
+function Logo({ className = "h-12" }) {
   return (
-        <div className={`${className} w-48 logo-gradient rounded-lg flex items-center justify-center`}>
-          <span className="text-white text-lg font-semibold visithome-font">VisitHome</span>
-        </div>
+    <img 
+      src="/VisitHome_Logo_06_Extended_Color 3.png" 
+      alt="VisitHome" 
+      className={`${className} w-auto`}
+      style={{ minHeight: '50px' }}
+    />
   )
 }
 

@@ -27,7 +27,7 @@ list_directory_contents() {
 
         # Skip ignored files and directories.
         case "$basename" in
-            .git|.cursor|build|target|dist|bin|node_modules|*.log|*.tmp|*.cache|.env|.DS_Store)
+            .git|.cursor|build|out|dist|bin|node_modules|.next|*.log|*.tmp|*.cache|.env|.DS_Store)
                 continue
                 ;;
         esac
